@@ -12,7 +12,7 @@ from sklearn.ensemble import GradientBoostingRegressor , GradientBoostingClassif
 from sklearn.tree import DecisionTreeClassifier
 
 
-dt=p.read_csv("C:/Users/kowsh/OneDrive/Desktop/ML/ML/data.csv")
+dt=p.read_csv("data.csv")
 print("Shape of the dataset : ",dt.shape)
 print(dt.head())
 print(dt.describe())
